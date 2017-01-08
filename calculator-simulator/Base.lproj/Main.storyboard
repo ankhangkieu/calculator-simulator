@@ -16,11 +16,26 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space-bg" translatesAutoresizingMaskIntoConstraints="NO" id="tGH-ek-cEu">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tGH-ek-cEu" secondAttribute="trailing" id="4k3-EZ-JoA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tGH-ek-cEu" secondAttribute="bottom" id="5Zq-ih-gpD"/>
+                            <constraint firstItem="tGH-ek-cEu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KX3-nb-bK1"/>
+                            <constraint firstItem="tGH-ek-cEu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rqK-35-tcB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="399"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="space-bg" width="988" height="946"/>
+    </resources>
 </document>
