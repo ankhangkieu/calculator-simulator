@@ -14,6 +14,7 @@
 		058A148F1E221B23000504AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058A148D1E221B23000504AA /* LaunchScreen.storyboard */; };
 		058A149A1E221B23000504AA /* calculator_simulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058A14991E221B23000504AA /* calculator_simulatorTests.swift */; };
 		058A14A51E221B23000504AA /* calculator_simulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058A14A41E221B23000504AA /* calculator_simulatorUITests.swift */; };
+		058A14B31E221BAD000504AA /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 058A14B21E221BAD000504AA /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		058A14A01E221B23000504AA /* calculator-simulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calculator-simulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		058A14A41E221B23000504AA /* calculator_simulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculator_simulatorUITests.swift; sourceTree = "<group>"; };
 		058A14A61E221B23000504AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058A14B21E221BAD000504AA /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		058A14831E221B23000504AA /* calculator-simulator */ = {
 			isa = PBXGroup;
 			children = (
+				058A14B21E221BAD000504AA /* btn.wav */,
 				058A14841E221B23000504AA /* AppDelegate.swift */,
 				058A14861E221B23000504AA /* ViewController.swift */,
 				058A14881E221B23000504AA /* Main.storyboard */,
@@ -232,6 +235,7 @@
 				058A148F1E221B23000504AA /* LaunchScreen.storyboard in Resources */,
 				058A148C1E221B23000504AA /* Assets.xcassets in Resources */,
 				058A148A1E221B23000504AA /* Main.storyboard in Resources */,
+				058A14B31E221BAD000504AA /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
